@@ -1,0 +1,7 @@
+$maximum: 100;
+@for $i from 1 through $maximum {
+    .padding-#{$i} { padding: $i; };
+    .margin-#{$i} {margin: $i;};
+    .margin-left-#{$i} {margin-left: $i;};
+    .padding-left-#{$i} {padding-left: $i;};
+}
